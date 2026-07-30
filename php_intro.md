@@ -26,3 +26,27 @@ php concept can be divided into three levels which are
 ![intermediat php level](media\php_intermidiate_level.png) 
 ### 3.advanced
 ![advanced php level](media\php_advanced_level.png)
+
+## installation
+### installing a web server 
+to install php you neew a a web server common and popular one are
+- apache server
+- nginx 
+both of them have there pros and cons that will be covered later but we will use apache web server
+ 
+### installing the php 
+1. in the os 
+    - manual installation of a web server
+    - manual installation of a database 
+    - a lot of manual configuration 
+    this is probably not beginner friendly
+
+2. all in one solution
+    - contains a pre-installed web server like apache
+    - contains a pre-installed database like MySQL
+    - pre-configured
+    like XAMPP / MAMP / WAMP all with there pros and cons
+
+3. virtual machines and docker
+    - better alternative
+    covered in a seperated video
