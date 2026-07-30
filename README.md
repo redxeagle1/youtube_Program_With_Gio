@@ -1,7 +1,14 @@
+## How to navigate this repro
+- this repo is devided into mutible folder prefixed with section
+- each section has it's own dedicated notes and projects
+- the programing folder at the beginner_section is a symilink folder coresponding the htdocs folder inside XAMPP
+- I may left notes here and there to describe something or location I will also mention the coresponding concept 
+- Although not decided but I may transition into different a web server or a docker if the course did
+
 ## introduction
 - php stands for hypertext preprocessor and its a scripting language meaning it's interpreted direcrtly unlike programming languages which require a compiler that translate it into machine code like `java, c++`
 - unlike javascript which runs inside the client server i.e ***browser***, php needs to run inside a **web server** 
-> [!example title:how does php runs] 
+> [!example "how does php runs"] 
 >  client(==the browser==) send a request to the web server which then interprets and process php 
 > it can also do ather thing like connecting to a database, apis and so on
 > it finally send the response back to the client
@@ -21,11 +28,11 @@
 ## course overview
 php concept can be divided into three levels which are
 ### 1.basic
-![basic php level](media\php_baisc_level.png)
+![basic php level](Public/php_baisc_level.png)
 ### 2.intermediate
-![intermediat php level](media\php_intermidiate_level.png) 
+![intermediat php level](Public/php_intermidiate_level.png) 
 ### 3.advanced
-![advanced php level](media\php_advanced_level.png)
+![advanced php level](Public/php_advanced_level.png)
 
 ## installation
 ### installing a web server 
@@ -50,3 +57,8 @@ both of them have there pros and cons that will be covered later but we will use
 3. virtual machines and docker
     - better alternative
     covered in a seperated video
+
+>[!NOTE "XAMPP as a starting point"]
+> we will stick with XAMPP for now but it itself have many cons like:
+> - setup comes only with one version of php and correspondingly one version for the Database running
+> - it's not a good choice when it come with security and production developement 
