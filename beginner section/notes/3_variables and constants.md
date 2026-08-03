@@ -1,6 +1,6 @@
 ### variable in php <!-- markdownlint-disable-line MD041 -->
 
-> php statements are executed top-to-bottom 
+> php statements are executed top-to-bottom
 
 - when creating a variable it follow the next set of rule <!-- markdownlint-disable-line MD003 -->
   - it must start with a `$` sign to indicating it's a variable

@@ -52,24 +52,6 @@ you can also execute the php files or scripts seperately via doing the following
 - enter the change directory command or `cd` to the targeted folder
 - upon reaching to it type `php <target filename>` inside it
 
-### variable within text
-
-- you can wrtie variable inside text through either string interpolation or concatination
-- string interpolation is a concept you insert your variables directly to strings without the need of concatination in other words variables within a text itsel
-  - you can't do string interpolation inside double `'`
-  - you can do sring interpolation inside double `"` and you may wrap it for more readablity
-- string concatination is just merging bunch of text together and can be done by the `.` operator
-examples for both
-
-```php
-$test_me = 'saad'
-# interpolation
-echo 'hello $test_me' // will not work even after wraping it with {}
-echo "hello $test_me"
-echo "hello {$test_me}"
-echo 'hello' . $test_me
-```
-
 ### php in html
 
 - you can - as we mentioned - write html content inside html and here are some different versions
