@@ -5,8 +5,8 @@
   - octal by prefixing the value with `0`
   - binary by prefixing the value with `0b`
   - hexadecimal by prefixing the value with `0x`
-- for readability purpose in php `7.4` the ability to seperate the number with `_` was added
-- the max integer range is defined by the platform wether it's 32-bit or 64-bit
+- for readability purpose in php `7.4` the ability to seperate the number with `_` was added so you can write `102093323200` into `102_093_323_200`
+- the max integer range is defined by the platform wether it's 32-bit or 64-bit and you can check that by the oredifined constants named `PHP_INT_MAX` and `PHP_INT_MIN`
 
 ```php
 $my_age = 123; # default integer defiantion

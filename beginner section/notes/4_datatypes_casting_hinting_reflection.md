@@ -39,14 +39,6 @@ $hamada = (int)'5';
 
 ## scalar types
 
-### 3. float
-
-- it accepts decimals and integer value  either positve or negative
-
-```php
-$myAge = 123.2322; # float defiantion
-```
-
 ### 4. string
 
 - we dealt with them some time and it's written `""` and `''`
