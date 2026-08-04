@@ -3,6 +3,7 @@
 - php is a dynamicly typed languages like python and javascript which means tyoechecking is happening in the runtime unlike static typed languages which happens in compile time like c#,C++ and JAVA
 - such flexiblity come with a price of the performance and can sometimes cause unexpected bugs
 - php has improved alot and supported strict types and it mainly supports 10 primitive datatypes which grouped in 4 groups scalar, compound, special and psuedo tyoes and this is mainly used for readability and these are `mixed` and `void`
+- scalar types are `integers float string boolean`
 
 ## type hinting and casting
 
@@ -40,13 +41,7 @@ $hamada = (int)'5';
 
 ### 1. boolean
 
-- this is either `true` or `false` and can be defined as the following
 
-```php
-$isOk = true; # boolean defination
-```
-
-- printing it in the browser will output `1` as it's `true` but printing `false` will output blank or ` ` nothing
 
 ### 2. integer
 
