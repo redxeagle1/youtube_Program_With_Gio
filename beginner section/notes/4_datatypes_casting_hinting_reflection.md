@@ -4,6 +4,7 @@
 - such flexiblity come with a price of the performance and can sometimes cause unexpected bugs
 - php has improved alot and supported strict types and it mainly supports 10 primitive datatypes which grouped in 4 groups scalar, compound, special and psuedo tyoes and this is mainly used for readability and these are `mixed` and `void`
 - scalar types are 4 types which are `integers float string boolean`
+- special types are 2 types which `resource` `null`
 
 ## type hinting and casting
 
@@ -59,9 +60,7 @@ $companies = [1,2,3,0.4,-3,'a',"my big mambo",true];
 
 ### 1. resource
 
-### 2. null
 
-- means no value literally
 
 ## psuedo elements
 
