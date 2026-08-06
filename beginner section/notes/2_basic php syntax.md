@@ -42,6 +42,10 @@ print('hello world');
 echo print 'hello world'; // # output : hello world1
 ```
 
+> - in order to print newline in php use either
+>   - `<br>` : by concatinating it with the string being printed
+>   - `nl2br(STRING_NAME)` : knowing the `\n` escape sequence in programming you can use the same technique he
+
 ### excecuting php scripts via the CLI
 
 you can also execute the php files or scripts seperately via doing the following steps
