@@ -26,8 +26,8 @@ print 'hello world';
 print('hello world');
 ```
 
-> notice that we end our statements[^1] with the semi-colon or [;] and that is a must in every statement except the last one before the php closing tag or `?>` this exception is goof for inline php statements inside html.
-> note also that string are always surrounded with [""] or ['']. also you can put `'` inside the double `"`
+> notice that we end our statements(^1) with the semi-colon or (;) and that is a must in every statement except the last one before the php closing tag or `?>` this exception is goof for inline php statements inside html.
+> note also that string are always surrounded with ("") or (''). also you can put `'` inside the double `"`
 > you can use escaping to print special characters like `"` or `'`
 
 #### `print` vs `echo`
@@ -88,7 +88,7 @@ somwthing
 */
 ```
 
-> [!WARNING]
+> (!WARNING)
 > place a comment a before the closing tag of html will not comment it out so be carefull
 >
 > ```php
@@ -99,4 +99,15 @@ somwthing
 
 ---
 
-[^1]:**the com mands that either do something like printing or declaring and initializing a variable or controlling the code flow**
+(^1):**the com mands that either do something like printing or declaring and initializing a variable or controlling the code flow**
+
+### expression
+
+- php itself is an expression oriented language where almost anything is an expression
+- expression always evaluate to some kind of value of any type
+- the simplest expression are constant, variable and litral value (i.e. like `5`, `true` or `"strings"`)
+- example of expression
+  - everything after the assignment operator `=` is considered an expression
+  - when comparing variables
+  - function are considered structure as they evaluate in a value
+  - control structure does also considerd an expression
